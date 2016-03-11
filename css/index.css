@@ -1,0 +1,99 @@
+/*base.css*/
+html{font-size: 1vw; color:#888;}
+
+.inline-block{display: inline-block;}
+
+.ml5{margin-left: 5px;}
+
+.mr5{margin-right: 5px;}
+.pb5{padding-bottom:5px;}
+
+.lh30{line-height: 30px;}
+
+.pl20{padding-left: 20px;}
+.pt30{padding-top: 30px;}
+.pad-10-3{padding:10px 3px;}
+
+.f16{font-size: 16px;}
+
+.tc{text-align: center;}
+.tl{text-align: left;}
+.tr{text-align: right;}
+
+.color-999{color:#999;}
+.color-fff{color:#fff;}
+
+.color-bg-fff{background-color: #fff;}
+
+/*common.css*/
+.bt-bg-1{background-color: #3f51b5}
+
+.bt-1{padding:1px 3px;}
+.bt-5{padding:5px 8px;}
+
+.b-radius-3{border-radius:3px;}
+
+.vm{vertical-align: middle;}
+
+
+
+
+/*index.css*/
+.wrap{margin:20px 50px;}
+.mdl-layout__header{
+	background-color: #424242;
+	_box-shadow: none;
+}
+.mdl-layout__header-row .mdl-navigation__link{
+	_color:#666;
+}
+.index-main > .banner{
+	min-height: 340px;
+	background-image: url(http://www.simplyhired.com/static/home/img/city-backgrounds/city-background-generic.jpg);
+	background-size: cover;
+}
+
+.header-link{opacity: 0.5;}
+.header-link:hover{
+	opacity: 1;
+}
+
+
+.header-bt:hover{background-color: #3144A9 !important;}
+
+.banner{padding:50px 50px;box-sizing:border-box;}
+.job-links-wrap{}
+
+.demo-list-three {
+  width: 650px;
+  margin:0 auto;
+}
+.hot-hob-wrap > .mdl-grid{margin:10px 0; padding:0; border:1px solid #eee;}
+.list-img{height: 180px;margin:0; background-repeat: no-repeat;background-size: cover;}
+.get-hired-bt{margin-top: 25%;margin-left:10%;}
+
+.swiper-container {
+        
+        height: 300px;
+        border:1px solid #eee;
+    }
+.swiper-slide {
+	border:1px solid #eee;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
